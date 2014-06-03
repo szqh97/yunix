@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="liyun" >
     <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
 
     <title>Theme Template for Bootstrap</title>
@@ -44,6 +44,7 @@
                     <li class="active"><a href="#">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
+
                     <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
                     <ul class="dropdown-menu">
@@ -56,11 +57,53 @@
                         <li><a href="#">One more separated link</a></li>
                     </ul>
                     </li>
+                    <li><a href="#login"> Log in </a>
+                    <style type="text/css" href="./static/css/login.css">
+                    </style>
+                    </li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
     </div>
 
+
+
+    <div class="container">
+
+        <div class="starter-template">
+            <h1>Bootstrap starter template</h1>
+            <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+        </div>
+
+
+        <div class="item col-lg-4 col-md-4 col-sm-4">
+              <div class="pic">
+                <div class="brick-actions">
+                    <button type="button" class="btn btn-danger btn-md" onmousedown="like('11417')">
+                        <span class="glyphicon glyphicon-heart"></span>
+                    </button>
+                    <button type="button" class="btn btn-primary btn-md" onmousedown="share(this)">
+                        <span class="glyphicon glyphicon-share-alt"></span>
+                    </button>
+                    <ul class="dropdown-menu shareDropDown" style="position: absolute; left: 98px; display: none;">
+                        <li><a href="javascript:justDoShare.doShare('douban')" rel="nofollow"><i class="icon_bg icon_douban"></i>豆瓣</a></li>
+                        <li><a href="javascript:justDoShare.doShare('qzone')" rel="nofollow"><i class="icon_bg icon_qzone"></i>空间</a></li>
+                        <li><a href="javascript:justDoShare.doShare('weibo')" rel="nofollow"><i class="icon_bg icon_sinaweibo"></i>微博</a></li>
+                    </ul>
+                </div>
+                <img class="post-image" src="http://ts1.mm.bing.net/th?&id=HN.607996966454495512&w=300&h=300&c=0&pid=1.9&rs=0&p=0"/> 
+            </div>
+            <div class="bottom row-fluid clearfix">
+                <div class="span12">【晒羞羞】</div>
+                <div class="stats">
+                    <span class="favor-count"><label id="like_11417">0</label></span>
+                    <span class="pub-time">4小时前</span>
+                </div>
+            </div>
+        </div>
+
+
+    </div><!-- /.container -->
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
