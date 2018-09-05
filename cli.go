@@ -16,7 +16,7 @@ func (cli *CLI) printUsage() {
 	fmt.Println("   getbalance -address ADDRESS - Get balance of ADDRESS")
 	fmt.Println("   createblockchain -address ADDRESS -Create a block chain and send genesis block reward to ADDRESS")
 	fmt.Println("   printchain - Print all the blocks of the blockchain")
-	fmt.Println("	listaddresses - List all address from the wallet file")
+	fmt.Println("   listaddresses - List all address from the wallet file")
 	fmt.Println("   send -from FROM -to TO -amount AMOUNT - Send AMOUNT of coins from FROM to TO")
 
 }

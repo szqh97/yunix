@@ -23,7 +23,7 @@ type Blockchain struct {
 
 func CreateBlockchain(address string) *Blockchain {
 	if dbExist() {
-		fmt.Println("blockchain not exist , create it first")
+		fmt.Println("blockchain already exist.")
 		os.Exit(1)
 	}
 	var tip []byte
